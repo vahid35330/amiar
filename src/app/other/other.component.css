@@ -1,0 +1,11 @@
+input {
+  background-color: #f0e9e3;
+  border-width: 1px;
+  border-color: black;
+}
+input:focus {
+  background-color: #f0e9e3;
+}
+button {
+  margin: 0.5rem;
+}

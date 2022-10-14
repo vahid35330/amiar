@@ -1,10 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
-
-html,
-body {
-  height: 100%;
+button {
+  min-width: 120px;
 }
 body {
-  margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background: url(../src/assets/background.png),
+    linear-gradient(#f0e9e3, #f0e9e3);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
 }

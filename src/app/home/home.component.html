@@ -1,19 +1,12 @@
-<div class="grid-container">
-  <h1 class="mat-h1">Home</h1>
-  <mat-grid-list cols="2" rowHeight="350px">
-    <mat-grid-tile
-      *ngFor="let card of cards | async"
-      [colspan]="card.cols"
-      [rowspan]="card.rows"
-    >
-      <mat-card class="dashboard-card">
-        <mat-card-header>
-          <mat-card-title></mat-card-title>
-        </mat-card-header>
-        <div>
-          <img src="{{ card.img }}" />
-        </div>
-      </mat-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+<div class="container d-flex align-items-center justify-content-center">
+  <div class="text-center w-75">
+    <img src="../../assets/amiar.png" alt="amiar-logo" />
+    <h5>!مشتری عزیز آمیار سلام</h5>
+    <h5 class="mt-3 text-secondary">
+      اگر میخوای بدونی مشکل پکیجت چیه و هزینه تعمیرش چقدر میشه دکمه شروع رو بزن
+    </h5>
+    <a href="/mark">
+      <button class="mt-3 btn btn-secondary">شروع</button>
+    </a>
+  </div>
 </div>
